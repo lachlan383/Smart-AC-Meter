@@ -9,4 +9,10 @@ For an in-depth overview of the initial concept, please read the [Initial Projec
 </a>
 </p>
 
-Project is currently in the hardware design stage - latest schematic and PCB prints are available at [Altium Project/output/prints.PDF](https://github.com/lachlan383/Smart-AC-Monitor/blob/master/Altium%20Project/output/prints.PDF)
+Project is currently in the hardware design stage - latest schematic and PCB prints are available at [Altium Project/output/prints.PDF](https://github.com/lachlan383/Smart-AC-Monitor/blob/master/Altium%20Project/output/prints.PDF):
+
+<p align="center"> 
+<a href="https://github.com/lachlan383/Smart-AC-Monitor/blob/master/Altium%20Project/output/prints.PDF">
+<img src="https://github.com/lachlan383/Smart-AC-Monitor/raw/master/Documentation/prints_thumbnail_800px.png">
+</a>
+</p>
