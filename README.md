@@ -16,3 +16,5 @@ Project is currently in the hardware design stage - latest schematic and PCB pri
 <img src="https://github.com/lachlan383/Smart-AC-Meter/raw/master/Documentation/prints_thumbnail_800px.png">
 </a>
 </p>
+
+As the hardware design is nearly completed, I have sent the design files to a trusted peer and asked them to review. This design review, and my replies and changes are contained in the [Design Review.txt](https://github.com/lachlan383/Smart-AC-Meter/raw/master/Documentation/Design%20Review.txt).
