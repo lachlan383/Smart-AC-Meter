@@ -1,0 +1,104 @@
+Anonymous review 2020/01/14
+===========================
+
+* [Design review comment]
+
+>> [Designer's reply]
+
+* What are the withstanding voltages of your sense/AC side resistors? if the
+  output was shorted they would probably survive from a power POV but would
+  their dielectric breakdown with 230V across them?
+
+>> The voltage sense resistors are both 1206, with a working voltage of 200 V
+   each, giving 400 V working voltage for two in series, more than enough for
+   240 V AC ( 240 * sqrt(2) = 340 Vpk ). The 1206 resistors also have a
+   withstanding voltage together of 800 V, so even better.
+   The current sense resistor cannot fail in such a way as to allow the full
+   line voltage across it. Even in the case of a short on the output L and N
+   terminals, the over-current condition will trip a fuse or breaker before
+   damaging this resistor (note that normal Australian AC outlets are maximally
+   15 A) as 15 A * 2 mOhm = 30 mV, and 15 A * 30 mV = 450 mW, well within all
+   this resistors ratings (it is a 3 W, 2512 resistor).
+
+* The datasheet vaguely hints at using ferrite beads in series with the 1k
+  resistors on the current sense lines and its been implemented on the eval
+  board. Probably overkill but might help with some higher frequency filtering
+  when measuring a noisy PC?
+  
+>> These ferrite beads aren't well documented, but the only justification I can
+   think of is for conducted EMI protection/prevention - something I am happy
+   to forego in an extreme low-cost, one-off prototype device, even though it
+   is good practice in general.
+   Regarding filtering noisy devices being measured, I'm not sure that we
+   actually want to do that - the MCP39F511 measures several factors such as
+   real & reactice power, as well as power factor, and filtering out harmonic
+   content from a noisy supply could make a device look better/"cleaner" than
+   it really is.
+   The frequency at which a ferrite bead acts is obviously far above the
+   sampling frequency of the MCP39F511's ADCs, though, so maybe the above point
+   isn't really relevant.
+
+* Also, the datasheet uses 33nF filtering caps.
+
+>> Well spotted. The 3 dB frequency for 1kOhm//100nF is 1.6 kHz, and a bit
+   under 5 kHz for the ferrite bead + 1 kOhm + 33 nF as is done on the eval
+   board. For now, I think it should be safe to use the same 100 nF cap as is
+   used everywhere else, since the 3 dB frequency is so far from the signal of
+   interest (50 Hz vs. 1.6 kHz). But, this capacitor is one of the simplest
+   and cheapest things to rework after the fact - it would only take 2 minutes,
+   and less than a dollar in cost, to replace all the 100 nF caps with 33 nF
+   caps, so maybe that is a good exercise to do when the boards arrive, to see
+   what effect it really has.
+
+* I don't know much about the ESP32 so maybe a stupid question but - how do you
+  program it?
+  
+>> The ESP32-WROOM module ships with a bootloader pre-installed that responds
+   to programming over the serial port (UART0), when IO0 is pulled low.
+   Otherwise, it has JTAG pins broken out as well, which could be soldered to
+   directly if required.
+
+* Maybe add some points to access the UART externally?
+
+>> Yep, these will be needed for programming, I wasn't sure of the best way to
+   do so, I have added 100 mil spaced vias/holes above the ESP32 that could
+   either be soldered directly to, or have male, or female 100 mil spaced
+   header pins/sockets attached.
+
+* As this is a logging platform, it might be cool to add the thermistor stuff
+  to the analogue input channel so you could also log external temperature?
+  (more complication...)
+  
+>> Definitely would be cool, and pretty easy too - but, in the interest of
+   keeping component count, complexity, and cost as low as absolutely possible,
+   I am going to opt not to add the temperature circuitry to this first design.
+
+* From your layout it looks as if the mounting holes are connected to Earth? If
+  not, I think they should be.
+  
+>> Indeed they are, although I thought I might use nylon standoffs and an
+   enclosure made of perspex or similar, in order to prevent having any exposed
+   conductive surfaces whatsoever.
+
+* Give your PCB a name and label it in silkscreen with revision etc (looks more
+  professional)
+  
+>> Done, thanks.
+
+* It may be a bit difficult to get to the components between the PSU and ESP32
+  (unlikely to ever need rework).
+  
+>> The AC/DC power supply (PSU) is the last thing to be soldered, after the
+   rest of the design has been completely tested and verified, so hopefully
+   this won't be an issue. If it is, the PSU is only connected by four small
+   pins so it wouldn't be hard to completely remove it to rework any parts it
+   might be obscuring.
+
+* Label the input and output in silkscreen
+
+>> Definitely a good idea, done.
+
+* In fact, get rid of the WE* designator labels and add your own for Live,
+  Neutral and Earth
+
+>> Done.
