@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Smart_AC_Meter.PcbDoc   11/04/2020  5:11:25 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Smart_AC_Meter-RoundHoles.TXT
+ASCII SlotHoles File : Smart_AC_Meter-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.5mm (20mil)                                             Round             89        PTH        0.00mm (0.00inch)
+T2      1mm (39mil)                                               Round             14        PTH        0.00mm (0.00inch)
+T3      3mm (118mil)                                              Round             6         PTH        0.00mm (0.00inch)
+T4      3.5mm (138mil)                                            Round             4         NPTH       0.00mm (0.00inch)
+T5      4mm (157mil)                                              Slot              4         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              117
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Smart_AC_Meter
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -105,13 +105,49 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AUGTYQTQ
 
-[Parameter1]
-Name=title
-Value=Smart AC Monitor
+[GeneratedDocument1]
+DocumentPath=output\BOM\Bill of Materials-Smart_AC_Meter.xls
+DItemRevisionGUID=
 
-[Parameter2]
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Smart_AC_Meter\Design Rule Check - Smart_AC_Meter.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=output\NC Drill\Smart_AC_Meter-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=output\NC Drill\Smart_AC_Meter-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=output\NC Drill\Smart_AC_Meter.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=output\Gerber\Smart_AC_Meter.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=output\NC Drill\Smart_AC_Meter.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=output\Gerber\Smart_AC_Meter.REP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=output\Gerber\Smart_AC_Meter.RUL
+DItemRevisionGUID=
+
+[Parameter1]
 Name=revision
 Value=0
+
+[Parameter2]
+Name=title
+Value=Smart AC Monitor
 
 [Configuration1]
 Name=Sources
@@ -124,7 +160,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Smart_AC_Meter
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -235,7 +271,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft XPS Document Writer
+TargetPrinter=Samsung ML-1660 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -718,6 +754,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
