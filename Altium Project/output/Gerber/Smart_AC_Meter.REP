@@ -9,8 +9,27 @@ Generating : Mechanical 1
 
 
 Used DCodes :
-    D10
-    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Smart_AC_Meter.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Smart_AC_Meter.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -47,85 +66,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : Smart_AC_Meter.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : Smart_AC_Meter.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D35
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Smart_AC_Meter.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Smart_AC_Meter.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
 Generating : Top Solder
       File : Smart_AC_Meter.GTS
 
@@ -157,6 +97,44 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Overlay
+      File : Smart_AC_Meter.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Smart_AC_Meter.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
 Generating : Bottom Layer
       File : Smart_AC_Meter.GBL
 
@@ -166,6 +144,37 @@ Generating : Bottom Layer
 
 
 Used DCodes :
+    D24
+    D35
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Smart_AC_Meter.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
     D24
     D35
     D41

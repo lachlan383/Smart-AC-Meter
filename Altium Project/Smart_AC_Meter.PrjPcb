@@ -95,7 +95,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -130,14 +130,54 @@ DocumentPath=output\Gerber\Smart_AC_Meter.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=output\NC Drill\Smart_AC_Meter.LDP
+DocumentPath=output\Gerber\Smart_AC_Meter.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=output\Gerber\Smart_AC_Meter.REP
+DocumentPath=output\Gerber\Smart_AC_Meter.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
+DocumentPath=output\Gerber\Smart_AC_Meter.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=output\Gerber\Smart_AC_Meter.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=output\Gerber\Smart_AC_Meter.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=output\Gerber\Smart_AC_Meter.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=output\Gerber\Smart_AC_Meter.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=output\Gerber\Smart_AC_Meter.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=output\Gerber\Smart_AC_Meter.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=output\Gerber\Smart_AC_Meter.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=output\NC Drill\Smart_AC_Meter.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=output\Gerber\Smart_AC_Meter.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
 DocumentPath=output\Gerber\Smart_AC_Meter.RUL
 DItemRevisionGUID=
 
