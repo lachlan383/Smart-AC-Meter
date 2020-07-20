@@ -1,6 +1,15 @@
 # Smart-AC-Meter
 Project repo for the hardware and software design of a household AC power monitor with smartphone interface.
 
+Update 2020-07-20:
+
+BOM and PCBs have been ordered for hand-assembly from Digikey and JLCPCB. BOM has now arrived:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/BOM_order1.jpg" width="300"/>
+  <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/BOM_order2.jpg" width="300"/>
+</p>
+
 For an in-depth overview of the initial concept, please read the [Initial Project Outline](https://github.com/lachlan383/Smart-AC-Meter/raw/master/Documentation/Initial%20Project%20Outline.docx):
 
 <p align="center"> 
