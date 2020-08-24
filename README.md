@@ -1,6 +1,21 @@
 # Smart-AC-Meter
 Project repo for the hardware and software design of a household AC power monitor with smartphone interface.
 
+***Update 2020-08-24:***
+PCBs arrived a few weeks ago and have now been fully assembled and successfully tested. Soldering of the 0.5mm QFN was extremely tricky and only successful (initially) on one of the three boards. For a full hardware build and verification writeup please see the [Hardware Review Document](https://github.com/lachlan383/Smart-AC-Meter/raw/master/Documentation/Hardware%20Review.docx).
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA1.JPG" width="300"/>
+    <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA2.JPG" width="300"/>
+  <br>
+    <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA3.JPG" width="300"/>
+    <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA4.JPG" width="300"/>
+  <br>
+    <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/RawValues.png" width="200"/>
+    <div style="width:10px"></div>
+    <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/RawValues2.png" width="200"/>
+</p>
+
 ***Update 2020-07-20:***
 BOM and PCBs have been ordered for hand-assembly from Digikey and JLCPCB.com. BOM has now arrived:
 
