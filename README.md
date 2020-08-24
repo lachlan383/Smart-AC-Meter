@@ -7,12 +7,12 @@ PCBs arrived a few weeks ago and have now been fully assembled and successfully 
 <p align="center">
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA1.JPG" width="300"/>
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA2.JPG" width="300"/>
-  <br>
+  <br/>
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA3.JPG" width="300"/>
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA4.JPG" width="300"/>
-  <br>
+  <br/>
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/RawValues.png" width="200"/>
-    <div style="width:10px"></div>
+          
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/RawValues2.png" width="200"/>
 </p>
 
