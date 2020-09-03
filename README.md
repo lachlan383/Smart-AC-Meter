@@ -2,7 +2,7 @@
 Project repo for the hardware and software design of a household AC power monitor with smartphone interface.
 
 ***Update 2020-08-24:***
-PCBs arrived a few weeks ago and have now been fully assembled and successfully tested. Soldering of the 0.5mm QFN was extremely tricky and only successful (initially) on one of the three boards. For a full hardware build and verification writeup please see the [Hardware Review Document](https://github.com/lachlan383/Smart-AC-Meter/raw/master/Documentation/Hardware%20Review.docx).
+PCBs arrived a few weeks ago and have now been fully assembled and successfully tested. Soldering of the 0.5mm QFN was extremely tricky and only successful (initially) on one of the three boards. For a full hardware build and verification writeup please see the [Hardware Review Document](https://github.com/lachlan383/Smart-AC-Meter/raw/master/Documentation/Hardware%20Review.docx)*(TBD)*.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/lachlan383/Smart-AC-Meter/master/Documentation/readme_img/PCBA1.JPG" width="300"/>
